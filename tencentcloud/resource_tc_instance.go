@@ -29,10 +29,11 @@ const (
 )
 
 const (
-	tencentCloudApiDiskTypeLocalBaisc = "LOCAL_BASIC"
-	tencentCloudApiDiskTypeLocalSSD   = "LOCAL_SSD"
-	tencentCloudApiDiskTypeCloudBasic = "CLOUD_BASIC"
-	tencentCloudApiDiskTypeCloudSSD   = "CLOUD_SSD"
+	tencentCloudApiDiskTypeLocalBaisc   = "LOCAL_BASIC"
+	tencentCloudApiDiskTypeLocalSSD     = "LOCAL_SSD"
+	tencentCloudApiDiskTypeCloudBasic   = "CLOUD_BASIC"
+	tencentCloudApiDiskTypeCloudPremium = "CLOUD_PREMIUM"
+	tencentCloudApiDiskTypeCloudSSD     = "CLOUD_SSD"
 )
 
 var (
@@ -50,6 +51,7 @@ var (
 		tencentCloudApiDiskTypeLocalBaisc,
 		tencentCloudApiDiskTypeLocalSSD,
 		tencentCloudApiDiskTypeCloudBasic,
+		tencentCloudApiDiskTypeCloudPremium,
 		tencentCloudApiDiskTypeCloudSSD,
 	}
 	availableInstanceChargeTypePrePaidPeriodValues    = []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 24, 36}
